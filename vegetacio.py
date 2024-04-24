@@ -7,7 +7,7 @@ def generar_dades(num_files):
     dades = []
     for _ in range(num_files):
         valor = random.randint(0, 10)
-        # Generem 0 o 10 aleatòriament
+        # Generem 0 a 10 aleatòriament
         dades.append(str(valor))  # Afegim el valor com a cadena de text
     return dades
 
